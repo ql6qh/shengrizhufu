@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生日快乐呀！！！</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+
+</head>
+<body class="demo-2 loading">
+    <main>
+			<div class="message">Hover effect &mdash; please view on desktop.</div>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">May you live the way you want to be.</h1>
+					<div class="frame__links">
+						
+					</div>
+					
+				</div>
+                <h2 class="frame__pagetitle">May your life be brighter as each birthday comes and goes,with
+                    new happiness unfolding like the petal of a rose. <span>liuqian</span></h2>
+			</div>
+			<div class="content">
+				<img class="content__img" src="img/qh1.jpg" alt="Some image" />
+				<img class="content__img" src="img/qh2.jpg" alt="Some image" />
+				<img class="content__img" src="img/qh3.jpg" alt="Some image" />
+				<img class="content__img" src="img/qh4.jpg" alt="Some image" />
+				<img class="content__img" src="img/qh5.jpg" alt="Some image" />
+				<img class="content__img" src="img/qh6.jpg" alt="Some image" />
+				<img class="content__img" src="img/qh7.jpg" alt="Some image" />
+				<img class="content__img" src="img/qh8.png" alt="Some image" />
+				<img class="content__img" src="img/qh9.jpg" alt="Some image" />
+				<img class="content__img" src="img/qh10.jpg" alt="Some image" />
+				<img class="content__img" src="img/qh11.jpg" alt="Some image" />
+				<img class="content__img" src="img/qh12.jpg" alt="Some image" />
+				<img class="content__img" src="img/qh13.jpg" alt="Some image" />
+				<img class="content__img" src="img/qh14.jpg" alt="Some image" />
+				<img class="content__img" src="img/qh15.jpg" alt="Some image" />
+				<img class="content__img" src="img/qh16.jpg" alt="Some image" />
+                <h3 class="content__title">happy birthday</h3>
+				
+			</div><!--/content-->
+		</main>
+		<audio src="晚风.mp3" autoplay="autoplay" loop="loop" id="vd"></audio>
+		<script>
+			window.onload = function(){
+               setInterval("toggleSound()",100);
+          }
+  
+      function toggleSound() {
+                  var music = document.getElementById("vd");//获取ID  
+                      
+                  if (music.paused) { //判读是否播放  
+                      music.paused=false;
+                      music.play(); //没有就播放 
+                  }    
+          }
+		</script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo2.js"></script></body>
+</body>
+</html>
